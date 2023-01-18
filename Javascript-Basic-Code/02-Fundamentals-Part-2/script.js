@@ -36,10 +36,34 @@
 // const calcAverage = (a, b, c) => (a +b + c) / 3;
 // console.log(calcAverage(3, 4, 5));
 
-const calcTip = function(bill) {
-    return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.20; 
+// const calcTip = function(bill) {
+//     return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.20; 
+// }
+
+// const bills = [125, 555, 44];
+// const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+// console.log(tips);
+
+
+const mark = {
+    fullName: 'Mark Miller',
+    mass: 78,
+    height: 1.69,
+    calcBMI: function() {
+        this.bmi = this.mass / this.height ** 2;
+        return this.bmi;
+    }
 }
 
-const bills = [125, 555, 44];
-const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
-console.log(tips);
+const john = {
+    fullName: 'Jon Smith',
+    mass: 92,
+    height: 1.95,
+    calcBMI: function() {
+        this.bmi = this.mass / this.height ** 2;
+        return this.bmi;
+    }
+}
+
+console.log(mark.calcBMI(this.bmi));
+console.log(john.calcBMI(this.bmi));
