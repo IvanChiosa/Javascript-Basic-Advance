@@ -246,5 +246,7 @@
 // console.log(totalDepositUSD);
 
 
-const arrRandom = Array.from({ length: 10 }, (_, i) => i + 1)
-console.log(arrRandom);
+// const arrRandom = Array.from({ length: 10 }, (_, i) => i + 1)
+// console.log(arrRandom);
+
+
