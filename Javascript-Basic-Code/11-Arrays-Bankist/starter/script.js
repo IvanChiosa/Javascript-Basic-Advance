@@ -235,13 +235,16 @@
 // };
 // console.log(calcAverageHUmanAge(dogs));
 
-const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
-const euroToUSD = 1.1;
+// const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+// const euroToUSD = 1.1;
 
-const totalDepositUSD = movements
-  .filter(mov => mov > 0)
-  .map(mov => mov * euroToUSD)
-  .reduce((acc, cur) => acc + cur, 0);
+// const totalDepositUSD = movements
+//   .filter(mov => mov > 0)
+//   .map(mov => mov * euroToUSD)
+//   .reduce((acc, cur) => acc + cur, 0);
+
+// console.log(totalDepositUSD);
 
 
-console.log(totalDepositUSD);
+const arrRandom = Array.from({ length: 10 }, (_, i) => i + 1)
+console.log(arrRandom);
