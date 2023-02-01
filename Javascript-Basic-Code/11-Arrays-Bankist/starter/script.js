@@ -279,8 +279,8 @@ const dogs = [
     { weight: 13, curFood: 275, owners: ['Sarah', 'John'] },
     { weight: 32, curFood: 340, owners: ['Michael'] }
 ];
-const recommendedFood = dogs.map(weight => weight ** 0.75 * 28);
-console.log(recommendedFood);
+
+
 
 
 
