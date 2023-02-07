@@ -26,3 +26,5 @@ const bmw = new Car('BMW', 120);
 bmw.accelerate();
 bmw.brake();
 bmw.accelerate();
+
+
