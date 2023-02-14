@@ -24,7 +24,7 @@ const getCountryData = function (country) {
                 <h4 class="country__region">${data.region}</h4>
                 <p class="country__row"><span>👫</span>${(+data.population / 1000000).toFixed(1)} people</p>
                 <p class="country__row"><span>🗣️</span>${data.languages.deu}</p>
-                <p class="country__row"><span>💰</span>${data.currencies.EUR.name}</p>
+                <p class="country__row"><span>💰</span>${data.currencies.EUR}</p>
             </div>
        </article>
    `;
@@ -34,4 +34,6 @@ const getCountryData = function (country) {
     });
 };
 
-getCountryData('italy')
+getCountryData('italy');
+getCountryData('germany');
+getCountryData('Republica Moldova');
