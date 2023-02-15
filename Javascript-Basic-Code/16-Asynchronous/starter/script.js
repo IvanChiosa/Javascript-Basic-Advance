@@ -37,3 +37,9 @@ const getCountryData = function (country) {
 getCountryData('italy');
 getCountryData('germany');
 getCountryData('Republica Moldova');
+
+
+
+new Promise(function () {
+
+})
