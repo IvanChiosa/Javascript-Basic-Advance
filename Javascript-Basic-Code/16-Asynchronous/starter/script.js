@@ -43,3 +43,4 @@ getCountryData('Republica Moldova');
 new Promise(function () {
 
 })
+
