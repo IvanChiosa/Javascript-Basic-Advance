@@ -49,6 +49,7 @@ var check = function () {
   }
 };
 check();
+;
 
 console.log(budget);
 
